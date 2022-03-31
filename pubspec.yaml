@@ -8,6 +8,9 @@ environment:
 
 dependencies:
   pointycastle:
+    git:
+      url: "https://github.com/chintan-beecept/pointycastle-romit.git"
+      ref: master
   hex: ^0.2.0
   bs58check: ^1.0.2
 
